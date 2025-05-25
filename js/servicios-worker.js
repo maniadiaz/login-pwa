@@ -1,10 +1,10 @@
 const CACHE_NAME = 'login-pwa-v1';
 const FILES_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/dashboard.html',
-  '/css/styles.css',
-  '/js/main.js',
+  '/login-pwa/',
+  '/login-pwa/index.html',
+  '/login-pwa/dashboard.html',
+  '/login-pwa/css/styles.css',
+  '/login-pwa/js/main.js',
   'https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css'
 ];
 
