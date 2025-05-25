@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel</title>
+</head>
+
+<script>
+    if(localStorage.getItem('loggedIn') !== 'true'){
+        window.location.href = 'index.html';
+    }
+</script>
+
+<body>
+    <h1> Bienvenido al panel </h1>
+    <button onclick="logout()">Cerrar Sesión</button>
+</body>
+
+<script>
+    function logout(){
+        localStorage.removeItem('loggedIn');
+        window.location.href = 'index.html';
+    }
+</script>
+
+</html>
